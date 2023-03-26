@@ -1,0 +1,425 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+main section.container-slide {
+    width: 100%;
+    height: 100vh;
+}
+main section.container-slide .slide {
+    width: 100%;
+    height: 100vh;
+    background: #F9F5EB;
+}
+main section.container-slide .slide-one {
+    background: #F9F5EB;
+}
+main section.container-slide .slide-one header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #181823;
+    text-align: center;
+}
+main section.container-slide .slide-one header .shape-divider-app {
+    width: 100%;
+    height: 130px;
+}
+main section.container-slide .slide-one header .shape-divider-app .custom-shape-divider-top-1679745858 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+main section.container-slide .slide-one header .shape-divider-app .custom-shape-divider-top-1679745858 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 85px;
+}
+main section.container-slide .slide-one header .shape-divider-app .custom-shape-divider-top-1679745858 .shape-fill {
+    fill: #F6F1F1;
+}
+main section.container-slide .slide-one .lateral-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100%;
+    background: #F6F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section.container-slide .slide-one .lateral-icons li {
+    list-style: none;
+    margin: 1.5rem;
+}
+main section.container-slide .slide-one .lateral-icons a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+main section.container-slide .slide-one .lateral-icons i {
+    width: 50px;
+    height: 50px;
+    background: #181823;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+main section.container-slide .slide-one header .logo {
+    display: flex;
+    flex-direction: column;
+}
+main section.container-slide .slide-one header .logo .name {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+main section.container-slide .slide-one header .logo .sub-title {
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+main section.container-slide .slide-one .horizontal-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 310px;
+    background: #F9F5EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+main section.container-slide .slide-one .horizontal-container .container {
+    width: 320px;
+    height: 100%;
+    background: #181823;
+    padding: 10px;
+    border-radius: 10px;
+}
+main section.container-slide .slide-one .horizontal-container .container .content-container {
+    margin: 6px;
+    text-align: justify;
+    text-indent: 10px;
+}
+main section.container-slide .slide-one .horizontal-container .container .content-container .content {
+    color: #fff;
+    font-size: 14px;
+}
+main section.container-slide .slide-one .horizontal-container .container .header-container#front_end {
+    width: 100%;
+    height: 130px;
+    background-image: url("images-slide-one/front-end.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+main section.container-slide .slide-one .horizontal-container .container .header-container#back_end {
+    width: 100%;
+    height: 130px;
+    background-image: url("images-slide-one/back_end.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+main section.container-slide .slide-one .horizontal-container .container .header-container#frameworks {
+    width: 100%;
+    height: 130px;
+    background-image: url("images-slide-one/framework.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+main section.container-slide .slide-two {
+    background: #ECF2FF;
+}
+main section.container-slide .slide-two .container-timeline {
+    width: 100%;
+    padding: 35px 10%;
+}
+main section.container-slide .slide-two .container-timeline .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+}
+main section.container-slide .slide-two .container-timeline .col .header-col-title {
+    color: #181823;
+    padding: 0px 0px 20px 20px;
+}
+main section.container-slide .slide-two .container-timeline .col .contents {
+    padding: 0px 30px;
+    border-left: 2px solid #181823;
+}
+main section.container-slide .slide-two .container-timeline .col .contents .box {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #03001C;
+    cursor: pointer;
+    transition: all .4s;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+main section.container-slide .slide-two .container-timeline .col .contents .box:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border: 1px solid transparent;
+}
+main section.container-slide .slide-two .container-timeline .col .contents .box::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background: #181823;
+    border: 2px solid #fff;
+}
+main section.container-slide .slide-two .container-timeline .col .contents .box h4 {
+    position: relative;
+    color: #03001C;
+}
+main section.container-slide .slide-two .container-timeline .col .contents .box h3 {
+    font-size: 19px;
+    padding: 10px 0px 6px;
+}
+main section.container-slide .slide-two .container-timeline .col .contents .box p {
+    line-height: 1.2;
+}
+main section.container-slide .slide-tree {
+    background: #ECF2FF;
+    position: relative;
+}
+main section.container-slide .slide-tree span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: #03001C;
+    font-weight: bolder;
+}
+main section.container-slide .slide-tree .main-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 500px;
+    border-top: 2px solid #03001C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section.container-slide .slide-tree .main-container .sections {
+    position: absolute;
+    right: 0;
+    width: 1000px;
+    height: 100%;
+    background: #ECF2FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+main section.container-slide .slide-tree .main-container .sections .title-footer {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, -10px);
+}
+main section.container-slide .slide-tree .main-container .sections .title-footer h2 {
+    position: relative;
+    font-size: 22px;
+    color: #181823;
+}
+main section.container-slide .slide-tree .main-container .sections .title-footer h2::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 4px;
+    bottom: -2px;
+    background: #181823;
+    border-radius: 2px;
+}
+main section.container-slide .slide-tree .main-container .sections .card {
+    position: relative;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face {
+    width: 300px;
+    height: 200px;
+    transition: .5s;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-one {
+    position: relative;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transform: translateY(100px);
+}
+main section.container-slide .slide-tree .main-container .sections .card:hover .face.face-one {
+    background: #181823;
+    transform: translateY(0);
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-one .content-box {
+    opacity: .2;
+    transition: .5s;
+}
+main section.container-slide .slide-tree .main-container .sections .card:hover .face.face-one .content-box {
+    opacity: 1;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-one .content-box img {
+    max-width: 100px;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-one .content-box h3 {
+    text-align: center;
+    color: #fff;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-two {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transform: translateY(-100px);
+}
+main section.container-slide .slide-tree .main-container .sections .card:hover .face.face-two {
+    transform: translateY(0);
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-two p {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-two a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #333;
+    padding: 5px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section.container-slide .slide-tree .main-container .sections .card .face.face-two a:hover {
+    background: #333;
+    color: #fff;
+}
+main section.container-slide .slide-tree .main-container .lateral-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    background: #03001C;
+}
+main section.container-slide .slide-tree .main-container .lateral-menu .perfil-user {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+main section.container-slide .slide-tree .main-container .lateral-menu .perfil-user .circle-perfil#image_user {
+    width: 90px;
+    height: 90px;
+    background-image: url("image-user/human_light.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+main section.container-slide .slide-tree .main-container .lateral-menu .sidebar {
+    width: 100%;
+    height: 400px;
+}
+main section.container-slide .slide-tree .main-container .lateral-menu nav a {
+    position: relative;
+    color: #Fff;
+    font-size: 20px;
+    display: table;
+    width: 300px;
+    padding: 10px;
+    text-decoration: none;
+}
+main section.container-slide .slide-tree .main-container .lateral-menu nav a:hover {
+    background: rgba(0, 0, 0, 0.16);
+}
+main section.container-slide .slide-tree .main-container .lateral-menu nav .fa-solid {
+    position: relative;
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+main section.container-slide .slide-tree .main-container .custom-shape-divider-bottom-1679768831 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+main section.container-slide .slide-tree .main-container .custom-shape-divider-bottom-1679768831 svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 30px;
+}
+main section.container-slide .slide-tree .main-container .custom-shape-divider-bottom-1679768831 .shape-fill {
+    fill: #03001C;
+}
+main section.container-slide .slide-tree footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: #03001C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main section.container-slide .slide-tree footer span {
+    font-size: 14px;
+    color: #fff;
+}
+body {
+    position: relative;
+    background-color: #000000;
+}
