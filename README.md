@@ -1,8 +1,7 @@
 # darkblink
-A simple site developed by a Front-End Junior.
+> A simple site developed by a Front-End Junior.
 # comments:
-This website does not yet contain a responsive screen.
-#
+> This website does not yet contain a responsive screen.
 ## Linguagens usadas :D
 <div style="display: inline_block">
     <img align="center" alt="Image not found" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
